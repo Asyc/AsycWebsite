@@ -1,0 +1,45 @@
+* {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    background-color: #3d3939;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    color: white;
+}
+
+.wrapper {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -80%);
+}
+
+body h1 {
+    font-size: 5em;
+}
+
+.btn {
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    transition: background-color 0.5s;
+    background-color: #4f4a4a;
+}
+
+ul li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+}
